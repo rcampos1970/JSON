@@ -1,6 +1,6 @@
 import json
 
-file = 'json-files/names.json'
+file = "test_original.json"
 
 
 def deconstruction_var_json():
