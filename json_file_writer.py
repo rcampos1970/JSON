@@ -1,7 +1,7 @@
 import json
 
-file = "json-files/names.json"
-data = [11, 45, "hello", "how u doin"]
+file = "test_original.json"
+data = [12, 45, "hello", "how u doin"]
 
 
 def create_file_json(info, filename):
