@@ -1,5 +1,5 @@
 import json
-file = "json-files/people.json"
+file = "test_original.json"
 
 
 def write_json(info, filename):
@@ -9,7 +9,7 @@ def write_json(info, filename):
 
 with open(file) as json_file:
     data = json.load(json_file)
-    temp = data["names"]
-    x = {"firstname": "Rafael", "age": "50"}
+    temp = data
+    x = {"firstname": "John", "age": "50"}
     temp.append(x)
 write_json(data, file)
